@@ -1,0 +1,11 @@
+bin = [
+    { name = "solve_me_first", path = "algorithms/00_solve_me_first/main.rs"}
+]
+
+[package]
+name = "algorithms"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
