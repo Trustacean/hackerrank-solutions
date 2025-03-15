@@ -1,6 +1,7 @@
 bin = [
     { name = "solve_me_first", path = "algorithms/00_warmup/00_solve_me_first/main.rs"},
-    { name = "simple_array_sum", path = "algorithms/00_warmup/01_simple_array_sum/main.rs"}
+    { name = "simple_array_sum", path = "algorithms/00_warmup/01_simple_array_sum/main.rs"},
+    { name = "compare_the_triplets", path = "algorithms/00_warmup/02_compare_the_triplets/main.rs"},
 ]
 
 [package]
