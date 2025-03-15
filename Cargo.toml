@@ -4,6 +4,7 @@ bin = [
     { name = "compare_the_triplets", path = "algorithms/00_warmup/02_compare_the_triplets/main.rs"},
     { name = "diagonal_difference", path = "algorithms/00_warmup/03_diagonal_difference/main.rs"},
     { name = "plus_minus", path = "algorithms/00_warmup/04_plus_minus/main.rs"},
+    { name = "staircase", path = "algorithms/00_warmup/05_staircase/main.rs"},
 ]
 
 [package]
