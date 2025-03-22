@@ -9,7 +9,7 @@ use std::io::{self, BufRead};
 fn mini_max_sum(arr: &[i32]) {
     let mut sum : i64 = 0;
     let mut max : i64 = 0;
-    let mut min : i64 = std::i64::MAX;
+    let mut min : i64 = i64::MAX;
     
     for &i in arr {
         let i = i as i64;
