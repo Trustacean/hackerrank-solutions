@@ -3,12 +3,12 @@ bin = [
     { name = "simple_array_sum", path = "algorithms/00_warmup/01_simple_array_sum/main.rs" },
     { name = "compare_the_triplets", path = "algorithms/00_warmup/02_compare_the_triplets/main.rs" },
     { name = "a_very_big_sum", path = "algorithms/00_warmup/03_a_very_big_sum/main.rs" },
-    { name = "diagonal_difference", path = "algorithms/00_warmup/03_diagonal_difference/main.rs" },
-    { name = "plus_minus", path = "algorithms/00_warmup/04_plus_minus/main.rs" },
-    { name = "staircase", path = "algorithms/00_warmup/05_staircase/main.rs" },
-    { name = "mini-max_sum", path = "algorithms/00_warmup/06_mini-max_sum/main.rs" },
-    { name = "birthday_cake_candles", path = "algorithms/00_warmup/07_birthday_cake_candles/main.rs" },
-    { name = "time_conversion", path = "algorithms/00_warmup/08_time_conversion/main.rs" },
+    { name = "diagonal_difference", path = "algorithms/00_warmup/04_diagonal_difference/main.rs" },
+    { name = "plus_minus", path = "algorithms/00_warmup/05_plus_minus/main.rs" },
+    { name = "staircase", path = "algorithms/00_warmup/06_staircase/main.rs" },
+    { name = "mini-max_sum", path = "algorithms/00_warmup/07_mini-max_sum/main.rs" },
+    { name = "birthday_cake_candles", path = "algorithms/00_warmup/08_birthday_cake_candles/main.rs" },
+    { name = "time_conversion", path = "algorithms/00_warmup/09_time_conversion/main.rs" },
 ]
 
 [package]
