@@ -9,10 +9,12 @@ bin = [
     { name = "mini-max_sum", path = "algorithms/00_warmup/07_mini-max_sum/main.rs" },
     { name = "birthday_cake_candles", path = "algorithms/00_warmup/08_birthday_cake_candles/main.rs" },
     { name = "time_conversion", path = "algorithms/00_warmup/09_time_conversion/main.rs" },
+    { name = "grading_students", path = "algorithms/01_implementations/00_grading_students/main.rs" },
 ]
 
 [package]
 name = "algorithms"
+
 version = "0.1.0"
 edition = "2024"
 publish = false
