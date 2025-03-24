@@ -10,6 +10,7 @@ bin = [
     { name = "birthday_cake_candles", path = "algorithms/00_warmup/08_birthday_cake_candles/main.rs" },
     { name = "time_conversion", path = "algorithms/00_warmup/09_time_conversion/main.rs" },
     { name = "grading_students", path = "algorithms/01_implementations/00_grading_students/main.rs" },
+    { name = "apples_and_oranges", path = "algorithms/01_implementations/01_apples_and_oranges/main.rs" },
 ]
 
 [package]
