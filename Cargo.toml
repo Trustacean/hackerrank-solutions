@@ -13,6 +13,7 @@ bin = [
     { name = "apples_and_oranges", path = "algorithms/01_implementations/01_apples_and_oranges/main.rs" },
     { name = "number_line_jumps", path = "algorithms/01_implementations/02_number_line_jumps/main.rs" },
     { name = "between_two_sets", path = "algorithms/01_implementations/03_between_two_sets/main.rs" },
+    { name = "subarray_division", path = "algorithms/01_implementations/04_subarray_division/main.rs" },
 ]
 
 [package]
