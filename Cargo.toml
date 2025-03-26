@@ -14,6 +14,8 @@ bin = [
     { name = "number_line_jumps", path = "algorithms/01_implementations/02_number_line_jumps/main.rs" },
     { name = "between_two_sets", path = "algorithms/01_implementations/03_between_two_sets/main.rs" },
     { name = "subarray_division", path = "algorithms/01_implementations/04_subarray_division/main.rs" },
+    { name = "divisible_sum_pairs", path = "algorithms/01_implementations/05_divisible_sum_pairs/main.rs" },
+
 ]
 
 [package]
