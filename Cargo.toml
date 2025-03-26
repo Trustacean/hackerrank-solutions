@@ -17,6 +17,7 @@ bin = [
     { name = "divisible_sum_pairs", path = "algorithms/01_implementations/05_divisible_sum_pairs/main.rs" },
     { name = "migratory_birds", path = "algorithms/01_implementations/06_migratory_birds/main.rs" },
     { name = "day_of_the_programmer", path = "algorithms/01_implementations/07_day_of_the_programmer/main.rs" },
+    { name = "bill_division", path = "algorithms/01_implementations/08_bill_division/main.rs"}
 ]
 
 [package]
