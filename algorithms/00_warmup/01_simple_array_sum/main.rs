@@ -9,6 +9,7 @@ use std::io::{self, BufRead, Write};
  * The function accepts INTEGER_ARRAY ar as parameter.
  */
 
+//  Complexity = {Time: O(n), Space: O(1)}
 fn simple_array_sum(ar: &[i32]) -> i32 {
     ar.iter().sum()
 }

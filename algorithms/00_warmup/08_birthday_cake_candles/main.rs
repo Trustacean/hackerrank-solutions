@@ -9,6 +9,7 @@ use std::io::{self, BufRead, Write};
  * The function accepts INTEGER_ARRAY candles as parameter.
  */
 
+//  Complexity = {Time: O(n), Space: O(1)}
 fn birthday_cake_candles(candles: &[i32]) -> i32 {
     let mut max = 0;
     let mut count = 0;

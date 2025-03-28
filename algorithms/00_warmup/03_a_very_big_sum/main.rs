@@ -9,6 +9,7 @@ use std::io::{self, BufRead, Write};
  * The function accepts LONG_INTEGER_ARRAY ar as parameter.
  */
 
+//  Complexity = {Time: O(n), Space: O(1)}
 fn a_very_big_sum(ar: &[i64]) -> i64 {
     let mut sum : i64 = 0;
     for &i in ar {

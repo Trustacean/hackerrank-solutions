@@ -10,6 +10,7 @@ use std::io::{self, BufRead, Write};
  * The function accepts INTEGER_ARRAY arr as parameter.
  */
 
+//  Complexity = {Time: O(n), Space: O(n)}
 fn migratory_birds(arr: &[i32]) -> i32 {
     let mut types: HashMap<i32, i32> = HashMap::new();
     let mut most_freq_type = arr[0];

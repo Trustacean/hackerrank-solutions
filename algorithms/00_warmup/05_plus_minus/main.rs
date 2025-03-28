@@ -7,6 +7,7 @@ use std::cmp::Ordering;
  * The function accepts INTEGER_ARRAY arr as parameter.
  */
 
+//  Complexity = {Time: O(n), Space: O(1)}
 fn plus_minus(arr: &[i32]) {
     let mut positives = 0;
     let mut negatives = 0;

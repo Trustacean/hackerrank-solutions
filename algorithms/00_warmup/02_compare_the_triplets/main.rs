@@ -12,6 +12,7 @@ use std::io::{self, BufRead, Write};
  *  2. INTEGER_ARRAY b
  */
 
+//  Complexity = {Time: O(n), Space: O(1)}
  fn compare_triplets(a: &[i32], b: &[i32]) -> Vec<i32> {
     let mut scores = vec![-0, 0];
     for i in 0..a.len() {

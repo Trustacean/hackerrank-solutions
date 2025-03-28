@@ -6,6 +6,7 @@ use std::io::{self, BufRead};
  * The function accepts INTEGER n as parameter.
  */
 
+//  Complexity = {Time: O(n^2), Space: O(n)}
 fn staircase(n: i32) {
     for i in 1..=n {
         println!("{:>width$}", "#".repeat(i as usize), width = (n as usize) );

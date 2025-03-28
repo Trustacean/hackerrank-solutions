@@ -13,6 +13,7 @@ use std::io::{self, BufRead, Write};
  *  4. INTEGER v2
  */
 
+//  Complexity = {Time: O(1), Space: O(1)}
 fn kangaroo(x1: i32, v1: i32, x2: i32, v2: i32) -> String {
     // x1 + n*v1 = x2 + n*v2
     // n*v1 = x2 - x1 + n*v2

@@ -12,6 +12,7 @@ use std::io::{self, BufRead, Write};
  *  3. INTEGER m
  */
 
+//  Complexity = {Time: O(n * m), Space: O(1)}
 fn birthday(s: &[i32], d: i32, m: i32) -> i32 {
     let mut total = 0;
     let pos = s.len() as i32 - m;

@@ -12,6 +12,7 @@ use std::io::{self, BufRead};
  *  6. INTEGER_ARRAY oranges
  */
 
+//  Complexity = {Time: O(n), Space: O(1)}
 fn count_apples_and_oranges(s: i32, t: i32, a: i32, b: i32, apples: &[i32], oranges: &[i32]) {
     let mut nrof_apples = 0;
     let mut nrof_oranges = 0;

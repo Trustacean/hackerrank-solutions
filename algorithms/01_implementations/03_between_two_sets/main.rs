@@ -11,6 +11,7 @@ use std::io::{self, BufRead, Write};
  *  2. INTEGER_ARRAY b
  */
 
+//  Complexity = {Time: O(k⋅(m+n)), Space: O(1)}
 fn get_total_x(a: &[i32], b: &[i32]) -> i32 {
     let mut total = 0;
     let max_a = *a.iter().max().unwrap();

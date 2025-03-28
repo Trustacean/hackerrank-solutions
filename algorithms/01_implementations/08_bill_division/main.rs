@@ -9,6 +9,7 @@ use std::io::{self, BufRead};
  *  3. INTEGER b
  */
 
+//  Complexity = {Time: O(n), Space: O(1)}
 fn bon_appetit(bill: &[i32], k: i32, b: i32) {
     let total: i32 = bill.iter().sum();
     let actual = (total - bill[k as usize]) / 2;

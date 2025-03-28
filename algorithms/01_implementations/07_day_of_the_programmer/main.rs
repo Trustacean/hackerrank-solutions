@@ -9,6 +9,7 @@ use std::io::{self, BufRead, Write};
  * The function accepts INTEGER year as parameter.
  */
 
+//  Complexity = {Time: O(1), Space: O(1)}
 fn day_of_programmer(year: i32) -> String {
     let mut days = 256;
     let mut m_counter = 1;

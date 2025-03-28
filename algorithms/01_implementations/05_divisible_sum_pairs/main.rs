@@ -12,6 +12,7 @@ use std::io::{self, BufRead, Write};
  *  3. INTEGER_ARRAY ar
  */
 
+//  Complexity = {Time: O(n^2), Space: O(1)}
 fn divisible_sum_pairs(n: i32, k: i32, ar: &[i32]) -> i32 {
     let mut total = 0;
     

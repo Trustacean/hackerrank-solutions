@@ -9,6 +9,7 @@ use std::io::{self, BufRead, Write};
  * The function accepts 2D_INTEGER_ARRAY arr as parameter.
  */
 
+//  Complexity = {Time: O(n), Space: O(1)}
 fn diagonal_difference(arr: &[Vec<i32>]) -> i32 {
     let mut ltr = 0;
     let mut rtl = 0;

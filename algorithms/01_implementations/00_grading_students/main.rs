@@ -9,6 +9,7 @@ use std::io::{self, BufRead, Write};
  * The function accepts INTEGER_ARRAY grades as parameter.
  */
 
+//  Complexity = {Time: O(n), Space: O(1)}
 fn grading_students(grades: &[i32]) -> Vec<i32> {
     let mut final_grade : Vec<i32> = Vec::new();
     for &i in grades {

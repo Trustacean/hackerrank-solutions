@@ -6,6 +6,7 @@ use std::io::{self, BufRead};
  * The function accepts INTEGER_ARRAY arr as parameter.
  */
 
+//  Complexity = {Time: O(n), Space: O(1)}
 fn mini_max_sum(arr: &[i32]) {
     let mut sum : i64 = 0;
     let mut max : i64 = 0;

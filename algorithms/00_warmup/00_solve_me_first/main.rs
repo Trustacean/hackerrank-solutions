@@ -24,6 +24,7 @@ fn main() {
     print_sum(_num_1, _num_2);
 }
 
+// Complexity = {Time: O(1), Space: O(1)}
 fn print_sum(a: i32, b: i32) {
     println!("{}", a + b);
 }
