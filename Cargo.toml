@@ -18,7 +18,8 @@ bin = [
     { name = "migratory_birds", path = "algorithms/01_implementations/06_migratory_birds/main.rs" },
     { name = "day_of_the_programmer", path = "algorithms/01_implementations/07_day_of_the_programmer/main.rs" },
     { name = "bill_division", path = "algorithms/01_implementations/08_bill_division/main.rs"},
-    { name = "09_sales_by_match", path = "algorithms/01_implementations/09_sales_by_match/main.rs" },
+    { name = "sales_by_match", path = "algorithms/01_implementations/09_sales_by_match/main.rs"},
+    { name = "drawing_book", path = "algorithms/01_implementations/10_drawing_book/main.rs"},
 ]
 
 [package]
