@@ -21,6 +21,7 @@ bin = [
     { name = "sales_by_match", path = "algorithms/01_implementations/09_sales_by_match/main.rs"},
     { name = "drawing_book", path = "algorithms/01_implementations/10_drawing_book/main.rs"},
     { name = "counting_valleys", path = "algorithms/01_implementations/11_counting_valleys/main.rs"},
+    { name = "forming_a_magic_square", path = "algorithms/01_implementations/14_forming_a_magic_square/main.rs"},
 ]
 
 [package]
